@@ -6,7 +6,8 @@
     "prettier": "prettier --write --ignore-unknown nextjs-dashboard",
     "prettier:check": "prettier --check --ignore-unknown nextjs-dashboard",
     "start": "next start",
-    "seed": "node -r dotenv/config ./scripts/seed.js"
+    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
